@@ -5,7 +5,7 @@ const url = require("url");
 const querystring = require("querystring");
 const path = require("path");
 const nodemailer = require("nodemailer");
-
+const mailConfig = require("./smtpConfig.json");
 app.use(express.json()); // Enables to accept JSON requests.
 app.use(express.urlencoded({ extended: true }));
 app.use("/", express.static(path.join(__dirname, "public"))); // Exposed to public.
@@ -19,21 +19,7 @@ console.log(`running on ${HOST_URL}/question`);
 
 const mail = async (applicantEmail, applicantName) => {
   // create reusable transporter object using the default SMTP transport
-  let transporter = nodemailer.createTransport({
-    pool: "true",
-    name: "dotquestionmark.in",
-    host: "mail.dotquestionmark.in",
-    port: 465,
-    secure: true, // use TLS
-    auth: {
-      user: "sarthak@dotquestionmark.in",
-      pass: "12345",
-    },
-    tls: {
-      // do not fail on invalid certs
-      rejectUnauthorized: false,
-    },
-  });
+  let transporter = nodemailer.createTransport(mailConfig);
 
   transporter.verify(function (error, success) {
     if (error) {

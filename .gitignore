@@ -1,3 +1,4 @@
 node_modules
 creds.json
 incubate-fellowship
+smtpConfig.json
