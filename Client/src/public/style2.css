@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav {
+  width: 85%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navv a {
+  color: #000000;
+  position: relative;
+  padding: 30px 30px 30px 0px;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.navv li {
+  margin: 0;
+  padding: 100px;
+}
+.navbar {
+  box-shadow: 0 8px 6px -10px black;
+}
+
+.container-form {
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  padding: 40px 0px 40px 60px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.container-form h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #8628fb;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-controle {
+  position: relative;
+  margin: 40px 0px;
+  padding-right: 140px;
+  display: inline;
+  justify-content: space-between;
+}
+
+.form-controle input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1.5px solid black;
+  display: block;
+  width: 150%;
+  font-size: 18px;
+  color: black;
+}
+
+.form-controle input:focus,
+.form-controle input:valid {
+  outline: 0;
+  border-bottom-color: #848484;
+}
+
+label {
+  position: absolute;
+  top: -50px;
+  max-width: 550px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.no5 label {
+  top: -30px;
+}
+
+.form-controle input:focus {
+  border-bottom: 1.5px solid #8628fb;
+}
+
+.form-controle input:focus + label {
+  color: #8628fb;
+}
+
+.form-controle input:valid {
+  border-bottom: 1.5px solid rgb(180, 180, 180);
+}
+
+.form-controle input:valid + label {
+  color: rgb(180, 180, 180);
+}
+
+.form-controle input:focus + label,
+.form-controle input:valid + label {
+  transform: translateY(-35px);
+}
+
+.no4 input:focus + label,
+.no4 input:valid + label {
+  transform: translateY(0px);
+}
+
+form button {
+  background-color: #8628fb;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 260px;
+  position: relative;
+  left: 280px;
+  transform: translateX(-50%);
+  font-weight: 500;
+}
+
+#footer {
+  position: relative;
+  top: 1700px;
+  padding: 50px 0 30px;
+}
+ul li {
+  display: inline;
+}
+.color {
+  color: #777;
+}
+.color.hover {
+  color: #777;
+  text-decoration: none;
+}
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #9e45f8;
+}
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-left-col {
+  flex-basis: 60%;
+  margin-top: 50px;
+}
+.footer-right-col {
+  flex-basis: 40%;
+  position: relative;
+  left: 300px;
+}
+.footer-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.link-title {
+  padding-right: 30px;
+}
+.connect {
+  padding-right: 0;
+}
+.connect ul {
+  padding-left: 0;
+}
+.connect ul li {
+  padding: 5px;
+}
+.link-title h4 {
+  color: #9e45f8;
+  margin-bottom: 20px;
+}
+.link-title small {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 20px;
+}
+.footer-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-logo img {
+  width: 100px;
+}
+.footer-logo button {
+  padding: 12px 30px;
+  margin-top: 20px;
+  font-size: 10px;
+}
+.copyright-text,
+.footer-logo {
+  flex-basis: 40%;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #8628fb;
+  font-weight: bold;
+}

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="423" height="371.5" viewBox="0 0 423 371.5">
+  <defs>
+    <filter id="Rectangle_1472" x="0" y="6.5" width="224" height="125" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1474" x="199" y="86.5" width="224" height="125" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1476" x="0" y="166.5" width="224" height="125" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1478" x="199" y="246.5" width="224" height="125" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_269" data-name="Group 269" transform="translate(-490 -91.5)">
+    <line id="Line_23" data-name="Line 23" y2="368" transform="translate(696.5 91.5)" fill="none" stroke="#707070" stroke-width="3"/>
+    <g id="Ellipse_50" data-name="Ellipse 50" transform="translate(689 148)" fill="#fefaff" stroke="#af00ff" stroke-width="2">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="6.5" fill="none"/>
+    </g>
+    <g id="Ellipse_51" data-name="Ellipse 51" transform="translate(689 228)" fill="#fefaff" stroke="#af00ff" stroke-width="2">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="6.5" fill="none"/>
+    </g>
+    <g id="Ellipse_52" data-name="Ellipse 52" transform="translate(689 308)" fill="#fefaff" stroke="#af00ff" stroke-width="2">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="6.5" fill="none"/>
+    </g>
+    <g id="Ellipse_53" data-name="Ellipse 53" transform="translate(689 388)" fill="#fefaff" stroke="#af00ff" stroke-width="2">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="6.5" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 490, 91.5)" filter="url(#Rectangle_1472)">
+      <rect id="Rectangle_1472-2" data-name="Rectangle 1472" width="164" height="65" transform="translate(25 31.5)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 490, 91.5)" filter="url(#Rectangle_1474)">
+      <rect id="Rectangle_1474-2" data-name="Rectangle 1474" width="164" height="65" transform="translate(224 111.5)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 490, 91.5)" filter="url(#Rectangle_1476)">
+      <rect id="Rectangle_1476-2" data-name="Rectangle 1476" width="164" height="65" transform="translate(25 191.5)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 490, 91.5)" filter="url(#Rectangle_1478)">
+      <rect id="Rectangle_1478-2" data-name="Rectangle 1478" width="164" height="65" transform="translate(224 271.5)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_1473" data-name="Rectangle 1473" width="5" height="65" transform="translate(515 123)" fill="#57db4c"/>
+    <rect id="Rectangle_1475" data-name="Rectangle 1475" width="5" height="65" transform="translate(873 203)" fill="#ea8b8b"/>
+    <rect id="Rectangle_1477" data-name="Rectangle 1477" width="5" height="65" transform="translate(515 283)" fill="#eea23a"/>
+    <rect id="Rectangle_1479" data-name="Rectangle 1479" width="5" height="65" transform="translate(873 363)" fill="#ae00fe"/>
+    <text id="Registrations_Open" data-name="Registrations Open" transform="translate(597 160)" fill="#4d4f5c" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="-51.389" y="0">Registrations Open</tspan></text>
+    <text id="Registrations_Close" data-name="Registrations Close" transform="translate(796 240)" fill="#4d4f5c" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="-51.525" y="0">Registrations Close</tspan></text>
+    <text id="Announcement_of_Shortlisted_Candidates" data-name="Announcement of
+Shortlisted Candidates" transform="translate(597 310)" fill="#4d4f5c" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="-48.405" y="0">Announcement of</tspan><tspan x="-61.704" y="20">Shortlisted Candidates</tspan></text>
+    <text id="Announcement_of_Final_Fellows" data-name="Announcement of
+Final Fellows" transform="translate(796 390)" fill="#4d4f5c" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="-48.405" y="0">Announcement of</tspan><tspan x="-35.165" y="20">Final Fellows</tspan></text>
+  </g>
+</svg>

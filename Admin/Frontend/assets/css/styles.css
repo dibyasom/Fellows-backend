@@ -1,0 +1,24 @@
+html,
+body {
+  overflow-x: hidden;
+}
+@media only screen and (min-width: 1081px) {
+  #db-item-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #db-item-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px 0;
+  }
+
+  #db-item {
+  }
+}
